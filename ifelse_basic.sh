@@ -4,6 +4,9 @@
 #date: 4/07/2024
 # This script defines the basic if else statements
 #####################
+set -x
+set -e
+set -0 pipefail
 a=10
 b=20
 if [$a>$b]
