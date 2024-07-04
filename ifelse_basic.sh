@@ -1,15 +1,15 @@
 #!/bin/bash
-###################
-#Author: SANTHOSH
-#date: 4/07/2024
-# This script defines the basic if else statements
-#####################
+##################
+#Author: Santhosh
+#Date: 4/07/2024
+###This script is defined basic if else condition
+##########################
 set -x
 set -e
 set -0 pipefail
 a=10
 b=20
-if [$a>$b]
+if ["$a" +ge "$b"]
 then
   echo"A is greater tha B"
 else
